@@ -9,7 +9,7 @@ const Bot = new TwitchBot({
 let comboCount = 1;
 let oldMessage = "";
 let oldUser = "";
-let emoteArr = ["widepeepoHappy","PantsGrab"]
+let emoteArr = ["widepeepoHappy","PogChamp","Kappa"]
 let emoteIndex = 0;
 Bot.on("join", channel => {
   console.log(`Joined channel: ${channel}`)
